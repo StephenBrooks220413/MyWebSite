@@ -1,0 +1,48 @@
+.special {
+	font-size: 3em;
+	font-family: Robot sans-serif;
+	letter-spacing: 3px;
+	word-spacing: 7px;
+}
+
+h3 {
+	text-shadow: 3px 7px 5px;
+}
+
+p {
+	padding-bottom: 12px;
+	color: blue;
+}
+
+span {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	transition-delay: 0.2s;
+	font-weight: bold;
+	color: goldenrod;
+	text-decoration: none;
+}
+
+#carouselExampleInterval {
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+   /*position: fixed;*/
+   margin-top: 13px;
+   left: 0;
+   bottom: 13px;
+   width: 100%;
+   background-color: opacity: 3px 6px 2px;
+   color: white;
+   text-align: center;
+}
