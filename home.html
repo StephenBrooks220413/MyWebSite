@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <h3>Homepage</h3>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="services.html">Services</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- contact info pop-up -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Phone Number => 318-272-9333
+      </div>
+      <div class="modal-footer">
+      		<form>
+			  <div class="form-group">
+			    <label for="exampleFormControlFile1">Upload File</label>
+			    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+			  </div>
+			</form>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="mailto:stephen.brooks220413@gmail.com"><button type="button" class="btn btn-secondary">Email</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Contact Me
+</button>
+<!-- About Me Box -->
+<div class="jumbotron">
+  <h5 class="display-4">A Little About Me</h5>
+  <img src="pictures/Me.jpg" alt style="width: 110px; height: 110px; border-radius: 50%;">
+  <p class="lead">I lived in Europe adn North America, and also went to school in both After elementary at Ramstein Kindergarten in Germany. I was moved to the States where I graduated from High School in Louisiana, continued my education with University of Phoenix for a Bachelor Degree, and then went back to school to learn how to code with Bottega Tech.</p>
+  <hr class="my-4">
+  <p>I share my linkedin and github profiles for my developer portfolio, and communicate through slack with orginizations such as unsplash, netlify, codepen and replit.</p>
+  <a class="btn btn-primary btn-lg" href="https://my.indeed.com/resume?_ga=2.152652537.1581764415.1558300010-1107362642.1558300010" role="button">Learn more</a>
+</div>
+<h1 class="special">My Projects</h1>
+<!-- My Projects -->
+<div class="card mb-3">
+  <img src="https://images.unsplash.com/photo-1468730533502-216da872eab2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt style="width: 410px; height: 190px; box-shadow: 6px 9px 11px;">
+  <div class="card-body">
+    <h5 class="card-title">Diner Website</h5>
+    <p class="card-text">Providing another look at dining online, there is literally no hassle and all the business you want on any device.</p>
+    <a href="https://Diner-Project--stephenbrooks.repl.co"><button action="send">"Take Me There!"</button></a>
+    <p class="card-text"><small class="text-muted">Project completed May 2019</small></p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Photographer's Site</h5>
+    <p class="card-text">A place for photographers to collect their memories and store them, even if it is for someone else.</p><a href="https://photography--stephenbrooks.repl.co"><button action="send">"Take Me There!"</button></a>
+    <p class="card-text"><small class="text-muted">Completed April 2019</small></p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" class="card-img-top" alt style="width: 410px; height: 190px; box-shadow: 6px 9px 11px;">
+</div>
+<!-- second set -->
+<div class="card mb-3">
+  <img src="https://images.unsplash.com/photo-1527427337751-fdca2f128ce5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" class="card-img-top" alt style="width: 410px; height: 190px; box-shadow: 6px 9px 11px;">
+  <div class="card-body">
+    <h5 class="card-title">Code Player</h5>
+    <p class="card-text">Practice coding here and see the reults, with html and css support.</p>
+    <a href="https://code-player--stephenbrooks.repl.co"><button action="send">"Take Me There!"</button></a>
+    <p class="card-text"><small class="text-muted">You Can Code Too</small></p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Test Your Speed</h5>
+    <p class="card-text">A place to test your speed and reaction time. By using javascript, this reaction game comes to life.</p><a href="https://reaction-game--stephenbrooks.repl.co"><button action="send">"Take Me There!"</button></a>
+    <p class="card-text"><small class="text-muted">Completed March 2019</small></p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1556537570-231ead2a4009?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80" class="card-img-top" alt style="width: 410px; height: 190px; box-shadow: 6px 9px 11px;">
+</div>
+<p></p>
+<!-- google maps -->
+
+<footer class="footer">
+	<span>
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination">
+		    <li class="page-item"><a class="page-link" href="#">Profile</a></li>
+		    <li class="page-item"><a class="page-link" href="contact">Facebook</a></li>
+		    <li class="page-item"><a class="page-link" href="#">Linkedin</a></li>
+		  </ul>
+		</nav>
+	</span>
+	<p>&copy 2019 <a href="https://codebrew,codes">https://codebrew.codes</a></p>
+	<img src="https://i.ytimg.com/vi/__z734zTf9M/maxresdefault.jpg" alt style="width: 145px; height: 75px; border-radius: 50%;">
+</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
