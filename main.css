@@ -2,7 +2,7 @@ body {
    margin: 1;
    font-family: 'Lato', sans-serif;
    color: blue;
-   background-image: url(https://cdn.devdojo.com/posts/images/November2018/becoming-a-web-developer-in-20192.jpg?auto=compress&w=960&dpr=2)
+   background-image: url(https://images.unsplash.com/photo-1560529621-67dda50eeb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80)
 }
 
 p {
@@ -73,12 +73,64 @@ p {
    justify-content: center;
 }
 
+
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
 @media screen and (max-height:450px){
  .overlay a {font-size: 20px}
  .overlay .closebtn {
    font-size: 40px;
    top: 15px;
    right: 35px;
+ }
+}
+
+/*CSS Marquee*/
+.example1 {
+ height: 50px;  
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  
+ transform:translateX(100%);
+ /* Apply animation to this element */  
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);     
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
  }
 }
 
@@ -89,7 +141,7 @@ html, body{
 }
 
 body { 
-  background-image: url(https://cdn.devdojo.com/posts/images/November2018/becoming-a-web-developer-in-20192.jpg?auto=compress&w=960&dpr=2) ;
+  background-image: url(https://images.unsplash.com/photo-1560529621-67dda50eeb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80) ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -122,7 +174,7 @@ h5, p {
   height:auto;
   bottom: 0; 
   display: block;
-  position: absolute;
+  position: fixed;
   background-color: rgba(0,0,0,0.6);
   color: #fff;
   padding: 0.5em;
@@ -192,7 +244,7 @@ header span {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   height:auto;
 }
