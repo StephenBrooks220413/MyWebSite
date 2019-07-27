@@ -34,6 +34,16 @@ body {
 	float: right;
 }
 
+.style {
+	border: 4px groove lightgrey;
+	background-color: #ffffff;
+	width: 50%;
+	height: auto;
+	margin-top: 63px;
+	margin-bottom: 63px;
+	padding: 9px;
+}
+
 a {
 	margin-right: 14px;
 	margin-left: 9px;
