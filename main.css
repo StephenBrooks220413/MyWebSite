@@ -73,3 +73,12 @@ footer {
 	font-color: #ffffff;
 	font-size: 0.9em;
 }
+
+@media (max-width:800px) {
+	img {
+		display: flex;
+		float: left;
+		width: 80%;
+		height: 214px;
+	}
+}
