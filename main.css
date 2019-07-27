@@ -74,11 +74,42 @@ footer {
 	font-size: 0.9em;
 }
 
-@media (max-width:800px) {
+
+@media (max-width:870px) {
 	img {
 		display: flex;
 		float: left;
 		width: 80%;
-		height: 214px;
+		height: 264px;
+	}
+
+	span {
+		display: flex;
+		float: left;
+		width: 100%;
+		height: 234px;
+	}
+}
+
+@media (min-width: 870px) {
+
+	img {
+		margin-left: 90px;
+		margin-right: 90px;
+		display: flex;
+		float: left;
+		width: 80%;
+		height: 314px;
+	}
+
+	span {
+		display: flex;
+		float: left;
+		width: 100%;
+		height: 434px;
+	}
+	
+	td {
+		text-align: center;
 	}
 }
