@@ -4,7 +4,7 @@ body {
 }
 
 .img-1 {
-	margin-left: 21px;
+	margin-left: 19px;
 	display: flex;
 	float: left;
 	width: 100%;
@@ -12,10 +12,11 @@ body {
 
 .img-text-1 {
 	text-align: center;
-	margin-left: 52px;
+	margin-top: 13px;
+	margin-right: 133px;
 	border: none;
 	background-color: #ffffff;
-	width: 40%;
+	width: 30%;
 	height: auto;
 	float: inherit;
 }
@@ -25,7 +26,7 @@ body {
 }
 
 .img {
-	display: inline-block;
+	display: flex;
 	float: left;
 }
 
@@ -42,6 +43,10 @@ body {
 	margin-top: 63px;
 	margin-bottom: 63px;
 	padding: 9px;
+}
+
+.special {
+	margin-right: 147px;
 }
 
 a {
@@ -75,17 +80,43 @@ footer {
 }
 
 @media (max-width:870px) {
-	img {
+
+	.img {
+		margin-left: 40px;
+		margin-right: 40px;
+		display: flex;
+		float: left;
+		width: 60%;
+		height: 254px;
+	}
+
+	span {
 		display: flex;
 		float: left;
 		width: 80%;
-		height: 264px;
+		height: 234px;
+	}
+}
+
+@media (min-width: 870px) {
+
+	.img {
+		margin-left: 90px;
+		margin-right: 90px;
+		display: flex;
+		float: left;
+		width: 60%;
+		height: 314px;
 	}
 
 	span {
 		display: flex;
 		float: left;
 		width: 100%;
-		height: 234px;
+		height: 434px;
+	}
+
+	td {
+		text-align: center;
 	}
 }
