@@ -6,19 +6,8 @@ body {
 .img-1 {
 	margin-left: 19px;
 	display: flex;
-	float: left;
+	/*float: left;*/
 	width: 100%;
-}
-
-.img-text-1 {
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 133px;
-	border: none;
-	background-color: #ffffff;
-	width: 30%;
-	height: auto;
-	float: inherit;
 }
 
 .clear {
@@ -86,8 +75,15 @@ footer {
 		margin-right: 40px;
 		display: flex;
 		float: left;
-		width: 100%;
-		height: 254px;
+		width: 60%;
+		height: 214px;
+	}
+
+	.img-text-1 {
+		text-align: center;
+		float: left;
+		display: flex;
+		margin-right: 27px;
 	}
 
 	span {
@@ -105,8 +101,19 @@ footer {
 		margin-right: 90px;
 		display: flex;
 		float: left;
-		width: 100%;
+		width: 60%;
 		height: 314px;
+	}
+
+	.img-text-1 {
+		text-align: center;
+		margin-top: 13px;
+		margin-right: 133px;
+		border: none;
+		background-color: #ffffff;
+		width: 30%;
+		height: auto;
+		float: inherit;
 	}
 
 	span {
