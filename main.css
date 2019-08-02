@@ -3,6 +3,17 @@ body {
 	padding: 0;
 }
 
+fieldset {
+	border: 3px solid black;
+	width: 40%;
+	height: auto;
+	background-color: skyblue;
+}
+
+.fieldtext {
+	padding: 9px;
+}
+
 .img-1 {
 	margin-left: 19px;
 	display: flex;
@@ -10,13 +21,10 @@ body {
 	width: 100%;
 }
 
-.clear {
-	clear: both;
-}
-
 .img {
 	display: flex;
 	float: left;
+	max-height: 300px;
 }
 
 .img-a {
@@ -71,19 +79,18 @@ footer {
 @media (max-width:870px) {
 
 	.img {
-		margin-left: 40px;
-		margin-right: 40px;
-		display: flex;
-		float: left;
-		width: 60%;
-		height: 214px;
+		/*visibility: hidden;*/
 	}
 
 	.img-text-1 {
 		text-align: center;
-		float: left;
-		display: flex;
-		margin-right: 27px;
+		margin-top: 13px;
+		margin-right: 190px;
+		border: none;
+		background-color: #ffffff;
+		width: 100%;
+		height: auto;
+		float: inherit;
 	}
 
 	span {
@@ -97,12 +104,12 @@ footer {
 @media (min-width: 870px) {
 
 	.img {
-		margin-left: 90px;
+		margin-left: 190px;
 		margin-right: 90px;
 		display: flex;
 		float: left;
-		width: 60%;
-		height: 314px;
+		width: 100%;
+		height: 294px;
 	}
 
 	.img-text-1 {
