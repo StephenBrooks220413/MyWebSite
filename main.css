@@ -21,8 +21,28 @@ html {
 
 
 
-@media only screen and (max-width:740px) {
+
+
+@media only screen and (max-width:840px) {
   #message {
     visibility: hidden;
   }
+
+  /* html {
+    background: none;
+  } */
+
+  .img {
+    visibility: visible;
+    color: black;
+  }
+
+}
+
+@media only screen and (min-width:840px) {
+
+  .img {
+    visibility: hidden;
+  }
+
 }
