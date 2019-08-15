@@ -18,3 +18,11 @@ html {
     bottom: fixed;
     position: absolute;
 }
+
+
+
+@media only screen and (max-width:740px) {
+  #message {
+    visibility: hidden;
+  }
+}
