@@ -11,10 +11,31 @@
 
     <title>Develop'd Shop</title>
   </head>
+
+  <style>
+
+      a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    a:hover {
+        text-decoration:none;
+        color:goldenrod;
+        transition-delay:0.3s;
+    }
+
+    .navlinks {
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+
+  </style>
+
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">Portfolio</a>
+        <a class="navbar-brand">Code Brew Designers</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,19 +44,12 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-<!--             <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li> -->
-<!--             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/StephenBrooks220413">Profile</a>
-            </li> -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="pc&web.html">PC&Web</a>
-<!--                 <a class="dropdown-item" href="services.html">Services</a> -->
                 </div>
             </li>
             <div class="ec-cart-widget"></div>
@@ -52,15 +66,144 @@
         </div>
     </nav>
 
+    <p style="margin-top:68px;"></p>
+    <div class="card bg-dark text-white">
+      <img src="./pictures/typing.jpg" height="590px" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h1 class="card-title" style="color:black">Our Commitment To You</h1>
+        <p class="card-text" style="color:goldenrod">I know what it's like to first start up and go through bumpy roads. Let me help you pave a smoother path.</p>
+        <p class="card-text" style="color:black">Last Since 2017</p>
+      </div>
+    </div>
+    
+    <p style="margin-top:62px"></p>
+    <hr style="width:80%;">
+    <p style="margin-top:62px"></p>
+
+    <table>
+        <tr id="saleItem">
+            <td class="listItem">
+                <img src="./pictures/workbook.jpg" style="width: 80%">
+            </td>
+            <td class="listItem">
+                <img src="./pictures/workingTable.jpg" style="width: 80%">
+            </td>
+            <td class="listItem">
+                <img src="./pictures/workStation.jpg" style="width: 80%">
+            </td>
+        </tr>
+        <tr id="saleList">
+            <td class="listText">
+                <p style="text-align:center;">Build 4 Your Design</p>
+            </td>
+            <td class="listText">
+                <p style="text-align:center;">Designed for All </p>
+            </td>
+            <td class="listText">
+                <p style="text-align:center;">Engineered for Performance</p>
+            </td>
+        </tr>
+    </table>
+
+    <p style="margin-top:32px"></p>
+    <hr style="width:80%;">
+    <p style="margin-top:62px"></p>
+
+    <div class="card-deck">
+  <div class="card">
+    <img src="./pictures/sales.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sales Manager</h5>
+      <p class="card-text">Leading to success, avenues of approach are funneled clients with referrals.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Mark Smith</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./pictures/developer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Developer</h5>
+      <p class="card-text">Use languages such as html5, CSS3, SCSS, jQuery, JavaScript, Bootstrap, SQL & PHP.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Stephen Brooks / Web Designer</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./pictures/marketing.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Marketing Manager</h5>
+      <p class="card-text">Our connection between us and you are the marketing teams. We know we have what you need, you just need to find us.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Tony Phillips</small>
+    </div>
+  </div>
+</div>
+
+    <p style="margin-top:87px;"></p>
+    <div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pictures/laptop.jpg" class="d-block w-100" style="height:590px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:goldenrod;">Building Fluid Sites</h1>
+          <p style="color:goldenrod;">So you can interactivity between you & customers.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./pictures/team.jpg" class="d-block w-100" style="height:590px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:goldenrod;">Collaborate & Achieve</h1>
+          <p style="color:goldenrod;">Work with us so we can build your foundation.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./pictures/workers.jpg" class="d-block w-100" style="height:590px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:goldenrod;">Then Relax</h1>
+          <p style="color:goldenrod;">We'll give you something to talk about with others.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
     <center>
         <div id="message">
             <h2>Stephen's Service & Site Building</h2>
             <nav>
+                <span class="navlinks">
+                <a href="https://facebook.com/krammer439298"><i class="fab fa-facebook-f"></i></a>
+                </span>
+                <span class="navlinks">
+                    <a href="https://github.com/StephenBrooks220413"><i class="fab fa-github"></i></a>
+                </span>
+                <span class="navlinks">
+                    <a href="https://www.linkedin.com/in/stephen-brooks-897a1110a"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+                <span class="navlinks">
+                    <a href="https://en.gravatar.com/stephenbrooks2204138d791302c5"><i class="fas fa-user-astronaut"></i></a>
+                </span> <br>
                 <span>
-                    5745B Rutledge Road <br>
                     Lawton, Oklahoma 73505 <br>
                     318-272-93333 <br>
-                    https://www.codebrew.codes <br>
+                    <a href="https://www.codebrew.codes">https://www.codebrew.codes</a> <br>
                     <p>&copy; 2017 codebrew.codes<p></p>
                 </span>
             </nav>
